@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import React from "react";
+import NavBar from "./components/NavBar";
+import Logo from "./components/Logo";
+import Commit from "./components/Commit";
+import TextBox from "./components/TextBox";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import Darkmode from "./components/Darkmode";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <NavBar />
+        <Darkmode />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                {" "}
+                <Logo />
+                <Commit />
+                <TextBox />
+              </>
+            }
+          />
+          <Route path="/about" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

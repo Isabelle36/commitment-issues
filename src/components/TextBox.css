@@ -1,0 +1,75 @@
+.textArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 48rem;
+  height: 14rem;
+  margin-top: 42px;
+  z-index: 5;
+  background: #0000002e;
+  /* background: none; */
+  backdrop-filter: blur(6px);
+  box-shadow: 2px 4px 13px black;
+}
+
+.theInnnerText {
+  font-size: 21px;
+  font-style: italic;
+  font-family: "Courier Prime", sans-serif;
+  font-weight: 400;
+  top: 12px;
+  position: absolute;
+  left: 18px;
+}
+
+.commitsGe {
+  position: absolute;
+  width: 120px;
+  height: 43px;
+  background-color: rgb(86, 223, 86);
+  bottom: 210px;
+  border-radius: 9px;
+  text-align: center;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  border: none;
+  box-shadow: 1px 3px 4px black;
+  cursor: pointer;
+}
+
+.commitsGe:hover {
+  background-color: rgb(78, 203, 78);
+}
+
+.copyStill {
+  position: absolute;
+  right: 9px;
+  bottom: 201px;
+  cursor: pointer;
+  color: white;
+  z-index: 9;
+}
+
+.copyStill:hover {
+  color: rgba(255, 255, 255, 0.597);
+}
+
+.copySuccess {
+  position: absolute;
+  right: 9px;
+  bottom: 201px;
+  cursor: pointer;
+  color: white;
+  z-index: 9;
+}
+
+.copySuccess:hover {
+  color: rgba(255, 255, 255, 0.597);
+}

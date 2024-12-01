@@ -1,0 +1,55 @@
+.contact-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #f3f4f6, #ffffff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 3px 4px black;
+}
+
+.contact-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.contact-container p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.contact-container a {
+  color: #ff0000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-container a:hover {
+  color: #8e0000;
+}
+
+.contact-container p:last-child {
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+.doWhatever {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.cunty {
+  position: absolute;
+  font-size: 3.6rem;
+  top: 150px;
+  text-shadow: 2px 2px 4px black;
+}

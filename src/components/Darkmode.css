@@ -1,0 +1,23 @@
+.moonCont {
+  display: inline-flex;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  z-index: 5;
+  right: 331px;
+  top: 28px;
+  text-shadow: 2px 1px 4px black;
+}
+
+.moonCont {
+  color: white;
+}
+.moonCont:hover {
+  color: rgb(223, 223, 223);
+}
+
+.svg-icon {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(1px 1px 2px rgb(0, 0, 0)); 
+}
