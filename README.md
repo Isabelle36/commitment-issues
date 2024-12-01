@@ -32,8 +32,10 @@ This project brings chaos and fun to your GitHub commit messages.
 3. Start the development server:
    ```bash
    npm start
-4.Open your browser and visit
+4. Open your browser and visit
+
 5. Generate random commit messages with one click!
+   
 6. Copy, paste, and never overthink your Git commits again.
 
 # 🤔 Why Commitment Issues?
