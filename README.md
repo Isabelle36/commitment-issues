@@ -14,9 +14,9 @@ This project brings chaos and fun to your GitHub commit messages.
 ---
 
 ## 🎨 Tech Stack  
-- **HTML, CSS, JavaScript and React**: Keeping it light and fast.  
+- **React**: For building an interactive and dynamic UI.  
+- **HTML, CSS, JavaScript**: Supporting the front end.  
 - **Router Support**: Smooth page transitions and resets for optimal user experience.  
-
 ---
 
 
@@ -26,11 +26,15 @@ This project brings chaos and fun to your GitHub commit messages.
     ```bash  
    git clone https://github.com/isabelle36/commitment-issues.git  
    cd commitment-issues  
-
-
-2. Open index.html in your browser.
-3. Generate random commit messages with one click!
-4. Copy, paste, and never overthink your Git commits again.
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the development server:
+   ```bash
+   npm start
+4.Open your browser and visit
+5. Generate random commit messages with one click!
+6. Copy, paste, and never overthink your Git commits again.
 
 # 🤔 Why Commitment Issues?
 Git commits are supposed to document your code, but why not make it fun?
