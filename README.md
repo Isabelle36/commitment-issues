@@ -19,8 +19,6 @@ This project brings chaos and fun to your GitHub commit messages.
 
 ---
 
-git remote add origin https://github.com/isabelle36/commitment-issues.git  
-
 
 ## 📋 How to Use  
 
