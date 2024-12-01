@@ -28,8 +28,8 @@ This project brings chaos and fun to your GitHub commit messages.
    cd commitment-issues  
 
 
-2. Generate random commit messages with one click!
-3. Open index.html in your browser.
+2. Open index.html in your browser.
+3. Generate random commit messages with one click!
 4. Copy, paste, and never overthink your Git commits again.
 
 # 🤔 Why Commitment Issues?
