@@ -14,7 +14,7 @@ This project brings chaos and fun to your GitHub commit messages.
 ---
 
 ## 🎨 Tech Stack  
-- **HTML, CSS, JavaScript**: Keeping it light and fast.  
+- **HTML, CSS, JavaScript and React**: Keeping it light and fast.  
 - **Router Support**: Smooth page transitions and resets for optimal user experience.  
 
 ---
