@@ -23,7 +23,7 @@ This project brings chaos and fun to your GitHub commit messages.
 ## 📋 How to Use  
 
 1. Clone this chaos:  
-
+    ```bash  
    git clone https://github.com/isabelle36/commitment-issues.git  
    cd commitment-issues  
 
